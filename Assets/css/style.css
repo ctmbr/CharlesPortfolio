@@ -30,6 +30,13 @@ nav {
     padding: 30px 100px;
 }
 
+.first {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 100px;
+}
+
 .img {
     max-height: 150px;
     border-radius: 25%;
@@ -52,7 +59,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #1d1d24;
+    color: #757575;
     position: relative;
     padding: 5px 0;
 }
@@ -93,7 +100,7 @@ nav ul li a:hover:after {
 }
 
 .btn:hover {
-    background: transparent;
+    background: black;
     border-color: #6e47fd;
     color: #6e47fd;
 }
@@ -170,7 +177,8 @@ nav ul li a:hover:after {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    max-width: 1100px;
+    gap: 15px;
+    max-width: 80%;
 }
 
 .project {
