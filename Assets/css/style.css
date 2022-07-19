@@ -184,7 +184,6 @@ nav ul li a:hover:after {
 
 .project {
     background-color: #2d1e64;
-    margin: ;
     padding: 20px 20px 20px;
     border: 2px dashed lightblue;
     border-radius: 30px;
@@ -194,12 +193,9 @@ nav ul li a:hover:after {
 
 footer span {
     font-size: 15px;
-    /* justify-content: center; */
     text-transform: uppercase;
     letter-spacing: 4px;
-    /* display: inline-block; */
     margin-bottom: 20px;
-    /* color: white; */
     background: linear-gradient(120deg,
             #1c99fe 20.69%,
             #7644ff 50.19%,
